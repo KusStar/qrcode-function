@@ -20,11 +20,11 @@ The size of image, defaults to `500`
 
 **margin**
 
-How much quiet zone of image, defaults to `1`
+How much quiet zone of image should be, defaults to `1`
 
 **type**
 
-The type of response, defaults to 'image', means it will return a `image/png`
+The type of response, defaults to `image`, means it will return a `image/png`
 
 When `type` is not `image`, it will return base64 data URL likes `data:image/png;base64,...`
 
