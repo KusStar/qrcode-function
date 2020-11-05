@@ -1,0 +1,17 @@
+{
+  "name": "qrcode-function",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "author": "KusStar",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.4.4"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.3.5",
+    "@vercel/node": "^1.8.4"
+  }
+}
