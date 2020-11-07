@@ -1,5 +1,10 @@
 import { NowRequest, NowResponse } from '@vercel/node'
 import QRCode from 'qrcode'
+import tinycolor from 'tinycolor2'
+
+const getHexColor = (color: any) => {
+  return tinycolor(String(color)).toHex8String()
+}
 
 export default async function (req: NowRequest, res: NowResponse) {
   const {
@@ -7,13 +12,19 @@ export default async function (req: NowRequest, res: NowResponse) {
       text = 'Where is my mind?',
       size = '500',
       margin = '1',
-      type = 'image'
+      type = 'image',
+      dark = '#000',
+      light = '#fff'
     },
   } = req
 
   const options = {
     width: Number(size),
     margin: Number(margin),
+    color: {
+      dark: getHexColor(dark),
+      light: getHexColor(light)
+    }
   }
 
   if (type === 'image') {
