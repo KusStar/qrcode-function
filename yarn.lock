@@ -14,6 +14,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/tinycolor2@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.npm.taobao.org/@types/tinycolor2/download/@types/tinycolor2-1.4.2.tgz#721ca5c5d1a2988b4a886e35c2ffc5735b6afbdf"
+  integrity sha1-chylxdGimItKiG41wv/Fc1tq+98=
+
 "@vercel/node@^1.8.4":
   version "1.8.4"
   resolved "https://registry.npm.taobao.org/@vercel/node/download/@vercel/node-1.8.4.tgz#43bbc2e39f97979390e0f968952bba4ebfdcb22e"
@@ -247,6 +252,11 @@ strip-ansi@^5.0.0, strip-ansi@^5.1.0, strip-ansi@^5.2.0:
   integrity sha1-jJpTb+tq/JYr36WxBKUJHBrZwK4=
   dependencies:
     ansi-regex "^4.1.0"
+
+tinycolor2@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.npm.taobao.org/tinycolor2/download/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
+  integrity sha1-P2pNEHGtB2dtf6Ry4frECnGdiAM=
 
 ts-node@8.9.1:
   version "8.9.1"
