@@ -1,18 +1,18 @@
 # qrcode-function
 
-> A function returns QR Code image or base64 data URL.
+> A serverless function returns QR Code in multiple formats.
 
 ## Usage
 
 Change the `?text=` value to your text to encode.
 ```
-https://qrcode-function.vercel.app/api?text=https://github.com/KusStar?title=KusStar&subtitle=Refer%20to%20my%20GitHub&type=html
+https://qrcode-function.vercel.app/api?text=https://github.com/KusStar&title=KusStar&subtitle=Refer%20to%20my%20GitHub&type=html
 ```
 ### Params
 
 **text**
 
-Text to encode, defaults to `Where is my mind?`. If text is URL, it may need to be the value after `encodeURIComponent`
+Text to encode, defaults to `Where is my mind?`. If text is URL, it may need to be encoded by `encodeURIComponent`
 
 **size**
 
